@@ -7,4 +7,4 @@ SocketHandler socketHandler = new SocketHandler(host, port);
 java.util.logging.Logger.getLogger("").addHandler(splunkSocketHandler);
 
 
-This server will accept those logs; and you can do whatever you want with that log.
+This server will accept those logs; and you can do whatever you want with that log (see method channelRead0 in ServerMessageHandler.java
